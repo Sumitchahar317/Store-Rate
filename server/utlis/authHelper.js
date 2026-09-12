@@ -8,8 +8,10 @@ exports.hasedPassword = async(password) =>{
     return passwordHash;
 }
 
+const JWT_SECRET = process.env.JWT_SECRET || "My-secretttt-9403lkp";
+
 exports.jwtToken = (id, name, email, role) =>{
-    return jwt.sign( { id, name, email, role}, process.env.JWT_SECRET, {expiresIn: "1d" });
+    return jwt.sign( { id, name, email, role}, JWT_SECRET, {expiresIn: "1d" });
 }
 
 exports.comparePassword = async (candidatePassword, hashedPassword) => {
