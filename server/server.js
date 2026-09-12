@@ -26,9 +26,14 @@ app.get("/" , (req,res)=>{
     res.send("Root page of StoreRating");
 })
 
-app.use("/api/auth",authRoute);
-app.use("/api/admin",adminRoute);
+app.use("/api/auth", authRoute);
+app.use("/auth", authRoute);
+
+app.use("/api/admin", adminRoute);
+app.use("/admin", adminRoute);
+
 app.use("/api", userRoute);
+app.use("/", userRoute);
 
 const PORT = process.env.PORT
 
