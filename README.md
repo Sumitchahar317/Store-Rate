@@ -1,7 +1,7 @@
 # StorePulse - Full-Stack Store Rating & Management Platform
 
-[![Live Application](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://your-frontend-deployment-url.vercel.app)
-[![API Endpoint](https://img.shields.io/badge/API-Live-green?style=for-the-badge&logo=render)](https://your-backend-deployment-url.onrender.com/api/health)
+[![Live Application](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://client1-rose.vercel.app)
+[![API Endpoint](https://img.shields.io/badge/API-Live-green?style=for-the-badge&logo=render)](https://store-rate-ggmx.onrender.com/api/health)
 
 StorePulse is a full-stack web application designed for registering stores and submitting ratings (1 to 5 stars). It features a unified authentication system providing role-based dashboard access, real-time input validations, and aggregate rating analytics across three user roles: System Administrator, Normal User, and Store Owner.
 
@@ -11,8 +11,8 @@ StorePulse is a full-stack web application designed for registering stores and s
 
 | Service | Environment | Status | Link |
 | :--- | :--- | :--- | :--- |
-| **Frontend Application** | Production (Vercel) | 🟢 Active | [https://your-frontend-deployment-url.vercel.app](https://your-frontend-deployment-url.vercel.app) |
-| **Backend REST API** | Production (Render) | 🟢 Active | [https://your-backend-deployment-url.onrender.com/api](https://your-backend-deployment-url.onrender.com/api) |
+| **Frontend Application** | Production (Vercel) | 🟢 Active | [https://client1-rose.vercel.app](https://client1-rose.vercel.app) |
+| **Backend REST API** | Production (Render) | 🟢 Active | [https://store-rate-ggmx.onrender.com/api](https://store-rate-ggmx.onrender.com/api) |
 | **Database** | Serverless PostgreSQL | 🟢 Connected | Neon.tech Cloud |
 
 ### 🔑 Demo Credentials
